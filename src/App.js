@@ -1,4 +1,4 @@
-
+import './jass.css';
 import './App.css';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
