@@ -6,7 +6,7 @@ import { SmileOutlined, SmileFilled, ProjectOutlined, ProjectFilled, PhoneOutlin
 export default function Navbar() {
 
   return (
-    <nav className="display-flex justify-space-around">
+    <nav className="display-flex justify-space-evenly">
       <NavLink to='/'>
         <span className='about-me'>
           <SmileOutlined className='default-smile' />

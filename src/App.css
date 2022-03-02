@@ -1,7 +1,12 @@
+/* Color pallete */
 :root {
   --shadow: #937b62ff;
   --dark-lava: #524541ff;
   --uranian-blue: #b9dcf5ff;
   --black-chocolate: #1a1209ff;
   --persian-green: #1b998bff;
+}
+
+* {
+font-family: Arial, Helvetica, sans-serif;
 }

@@ -1204,6 +1204,10 @@ form [type='radio'] {
   justify-content: space-around;
 }
 
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
 .justify-flex-start {
   justify-content: flex-start;
 }
