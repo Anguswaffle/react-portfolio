@@ -1,0 +1,47 @@
+.hover-smile {
+  display: none;
+}
+
+.about-me:hover .default-smile {
+  display: none;
+}
+
+.about-me:hover .hover-smile {
+  display: unset;
+}
+
+.hover-project {
+  display: none;
+}
+
+.project:hover .default-project {
+  display: none;
+}
+
+.project:hover .hover-project {
+  display: unset;
+}
+
+.hover-contact {
+  display: none;
+}
+
+.contact:hover .default-contact {
+  display: none;
+}
+
+.contact:hover .hover-contact {
+  display: unset;
+}
+
+.hover-resume {
+  display: none;
+}
+
+.resume:hover .default-resume {
+  display: none;
+}
+
+.resume:hover .hover-resume {
+  display: unset;
+}
