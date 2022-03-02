@@ -1,15 +1,17 @@
 import { NavLink } from "react-router-dom";
-import { SmileTwoTone } from "@ant-design/icons/lib/icons";
+import { SmileOutlined, ProjectOutlined, PhoneOutlined, FileTextOutlined } from "@ant-design/icons/lib/icons";
 
 
 export default function Navbar() {
 
   return (
-    <nav>
-      <NavLink to='/'><SmileTwoTone />About Me</NavLink>
-      <NavLink to='/projects'>Projects</NavLink>
-      <NavLink to='/contact'>Contact</NavLink>
-      <NavLink to='/resume'>Resume</NavLink>
-    </nav>
+    // <div className="display-flex justify-flex-end">
+      <nav className="display-flex justify-space-around">
+        <NavLink to='/'><SmileOutlined />About Me</NavLink>
+        <NavLink to='/projects'><ProjectOutlined /> Projects</NavLink>
+        <NavLink to='/contact'><PhoneOutlined /> Contact</NavLink>
+        <NavLink to='/resume'><FileTextOutlined /> Resume</NavLink>
+      </nav>
+    // </div>
   );
 }
